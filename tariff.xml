@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tariff xmlns="http://www.example.com/students">
+    <tariff_block name="Безлимит" operatorName="MTS">
+        <payroll>250</payroll>
+        <callPrices>
+            <insideNetwork>0</insideNetwork>
+            <outsideNetwork>1.5</outsideNetwork>
+            <fixedPhone>1</fixedPhone>
+        </callPrices>
+        <smsPrice>0</smsPrice>
+        <parameter>
+            <favoriteNumber>89149195654</favoriteNumber>
+            <tariffication>per-minute</tariffication>
+            <connectionFee>0</connectionFee>
+        </parameter>
+    </tariff_block>
+    <tariff_block name="Включайся" operatorName="МегаФон">
+        <payroll>650</payroll>
+        <callPrices>
+            <insideNetwork>2</insideNetwork>
+            <outsideNetwork>2</outsideNetwork>
+            <fixedPhone>2</fixedPhone>
+        </callPrices>
+        <smsPrice>2</smsPrice>
+        <parameter>
+            <favoriteNumber>89242083705</favoriteNumber>
+            <tariffication>Minute</tariffication>
+            <connectionFee>300</connectionFee>
+        </parameter>
+    </tariff_block>
+    <tariff_block name="Перемиум" operatorName="Tele2">
+        <payroll>1100</payroll>
+        <callPrices>
+            <insideNetwork>1</insideNetwork>
+            <outsideNetwork>1</outsideNetwork>
+            <fixedPhone>1</fixedPhone>
+        </callPrices>
+        <smsPrice>1</smsPrice>
+        <parameter>
+            <favoriteNumber>89505002045</favoriteNumber>
+            <tariffication>999</tariffication>
+            <connectionFee>0</connectionFee>
+        </parameter>
+    </tariff_block>
+</tariff>
